@@ -1,0 +1,16 @@
+*{font-size: 17px; font-family: font; margin: 0;padding: 0;list-style: none;text-decoration: none;color: inherit;box-sizing: border-box;}
+body {background-color: black;}
+@font-face {
+    font-family: 'font';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+.terminal{width: 800px; padding: 20px;border-radius: 10px;box-shadow: 0 0 20px #00ff88;display: flex;flex-direction: column;gap: 15px;}
+.container {gap: 30px; margin: 100px 0;flex-direction: column; width: 100vw;height: 100%;display: flex;justify-content: center;align-items: center;}
+h1 {color: #00ff88;width: 800px;font-weight: bold;font-size: 25px;}
+.output {height: auto; overflow-y: auto; color: #00ff88;display: flex;flex-direction: column;gap: 15px;}
+input {border: 0;background-color: unset;color: #00ff88;padding-left: 0;}
+input:focus {outline: none;}
+.input-line{color: #00ff88;display: flex;gap: 8px; }
