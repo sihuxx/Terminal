@@ -8,12 +8,14 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/fireba
 
     // 🔥 Firebase config — board.html과 동일하게 입력
     const firebaseConfig = {
-      apiKey: "YOUR_API_KEY",
-      authDomain: "YOUR_AUTH_DOMAIN",
-      projectId: "YOUR_PROJECT_ID",
-      storageBucket: "YOUR_STORAGE_BUCKET",
-      messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-      appId: "YOUR_APP_ID"
+apiKey: "AIzaSyBByCMlfqAZMzSOYlvEGm7Rd6aXXeByjwY",
+  authDomain: "terminal-2340c.firebaseapp.com",
+  databaseURL: "https://terminal-2340c-default-rtdb.firebaseio.com",
+  projectId: "terminal-2340c",
+  storageBucket: "terminal-2340c.firebasestorage.app",
+  messagingSenderId: "611432501438",
+  appId: "1:611432501438:web:43e3d7e5e2279bf3338eef",
+  measurementId: "G-WSE9YE9D5W"
     };
 
     const app = initializeApp(firebaseConfig);
