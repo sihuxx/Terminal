@@ -76,7 +76,7 @@ h1 { color: #00ff88; width: 100%; font-weight: bold; font-size: 25px; margin-bot
 
 /* POST LIST */
 .post-list { display: flex; flex-direction: column; gap: 0; }
-.post-item { border: 1px solid #003322; border-bottom: none; padding: 18px 20px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: all 0.2s; }
+.post-item { border: 1px solid #003322; border-bottom: none; gap: 30px; padding: 18px 20px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; transition: all 0.2s; }
 .post-item:last-child { border-bottom: 1px solid #003322; }
 .post-item:hover { background: rgba(0,255,136,0.04); border-color: #00ff88; box-shadow: 0 0 10px rgba(0,255,136,0.1) inset; }
 .post-item-left { display: flex; flex-direction: column; gap: 4px; }
